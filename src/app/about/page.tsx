@@ -1,4 +1,4 @@
-'use client';
+
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Image from "next/image";
 
@@ -33,7 +33,8 @@ export default function TracingBeamDemo() {
       </div>
     </TracingBeam>
   );
-}const dummyContent = [
+}
+const dummyContent = [
   {
     title: "Our mission",
     description: (
