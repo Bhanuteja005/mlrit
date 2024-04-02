@@ -2,7 +2,7 @@
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Image from "next/image";
 
-function TracingBeamDemo() {
+export default function TracingBeamDemo() {
   return (
     <TracingBeam className="px-6 mt-32">
         <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">About us</h2>
@@ -79,4 +79,3 @@ const dummyContent = [
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
-export default TracingBeamDemo;
