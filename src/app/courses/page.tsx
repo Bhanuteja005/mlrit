@@ -11,7 +11,7 @@ import {
 } from "@tabler/icons-react";
 import Image from 'next/image';
 
-export function page() {
+export default function page() {
   return (
         <BentoGrid className="max-w-4xl mx-auto mt-32">
       {items.map((item, i) => (
@@ -78,5 +78,3 @@ const items = [
     icon: <IconBriefcase className="h-4 w-4 text-indigo-500" />,
 },
 ];
-
-export default page;
