@@ -1,8 +1,8 @@
 'use client';
-"use client";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Image from "next/image";
-export function TracingBeamDemo() {
+
+function TracingBeamDemo() {
   return (
     <TracingBeam className="px-6 mt-32">
         <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">About us</h2>
