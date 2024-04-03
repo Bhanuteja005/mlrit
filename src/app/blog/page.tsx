@@ -95,6 +95,7 @@ export default function page() {
     </FollowerPointerCard>
     </div>
 </div>
+<h6 className=" md:text-4xl  text-white  text-center mb-8 mt-20">Older  Blogs</h6>
         <BentoGrid className="max-w-4xl mx-auto mt-20 mb-11">
         
       {items.map((item, i) => (
