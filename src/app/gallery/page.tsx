@@ -1,5 +1,4 @@
 "use client";
-import Footer from "@/components/Footer";
 import { LayoutGrid } from "@/components/ui/layout-grid";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
  
@@ -11,7 +10,6 @@ export default function LayoutGridDemo() {
       <hr style={{ width: '50%', margin: '0 auto' }} />
       <LayoutGrid cards={cards} />
       <ParallaxScroll images={images} />
-      <Footer/>
     </div>
   );
 }

@@ -13,13 +13,13 @@ export default function CanvasRevealEffectDemo() {
     <h6 className="text-xl md:text-3xl lg:text-5xl text-white text-center mb-8 mt-32">Core Team</h6>
 <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center bg-white dark:bg-black w-full mx-auto px-8">
 
-  <Card title="Arun Kumar" hoverText="President"   imageSrc="">
+  <Card title="Arun Kumar" hoverText="President"   imageSrc="https://media.licdn.com/dms/image/D5635AQFanKz8SYHbRQ/profile-framedphoto-shrink_800_800/0/1688991800985?e=1712764800&v=beta&t=g6JlYfmNB7Zp2oKBHhXRN_BrWOSJMH_U4Rk8HPaVv9Q">
     <CanvasRevealEffect
       animationSpeed={5.1}
       containerClassName="bg-emerald-900"
     />
   </Card>
-  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc="">
+  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkEUZ42JeNLF7TiDC-p6R1Yq41x6QlkxGtJ1GGfWBSKG3Kq6UiDRoWyZcwVeVryP58_L4&usqp=CAU">
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-black"
@@ -31,21 +31,21 @@ export default function CanvasRevealEffectDemo() {
     />
     <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
   </Card>
-  <Card title="Deepak Alapati" hoverText="Secretary"   imageSrc="">
+  <Card title="Deepak Alapati" hoverText="Secretary"   imageSrc="https://media-hyd1-1.cdn.whatsapp.net/v/t61.24694-24/328116525_516282913913999_8994638814297558483_n.jpg?ccb=11-4&oh=01_ASDBIrN9-Nzad5Ezi5cCOsWZ-fnk79jjRr-wuyDvGtimvg&oe=661A779B&_nc_sid=e6ed6c&_nc_cat=106">
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-sky-600"
       colors={[[125, 211, 252]]}
     />
   </Card>
-  <Card title="Srujana Gudipudi" hoverText="Treasurer"   imageSrc="">
+  <Card title="Srujana Gudipudi" hoverText="Treasurer"   imageSrc="https://media.licdn.com/dms/image/D5635AQEde4FG_YTTfg/profile-framedphoto-shrink_400_400/0/1708847905005?e=1712764800&v=beta&t=s9hT4ry6LjngyRrJVoeyF8rOOB5e5AWDUdRYMePxGeQ">
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-red-600" // changed color
       colors={[[125, 211, 252]]}
     />
   </Card>
-  <Card title="Sai Prashant" hoverText="Technical"   imageSrc="https://aim-mlrit-bhanu.vercel.app/assets/img/a.jpg">
+  <Card title="Sai Prashanth" hoverText="Technical"   imageSrc="https://media.licdn.com/dms/image/D5603AQH__l8C-e5jVA/profile-displayphoto-shrink_400_400/0/1711027713540?e=1717632000&v=beta&t=Z8DR_RuM2AH3_y7U9DE5jV_Xq8Cj1671yNM3NXduIXU">
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-yellow-600" // changed color
