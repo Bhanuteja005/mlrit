@@ -3,33 +3,33 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 const aiClubTestimonials = [
   {
     quote:
-      'Being a part of the AI club has been a transformative experience. The projects we work on are innovative and challenging, and I have learned so much.',
-    name: 'John Doe',
-    title: 'AI Enthusiast',
+      'Being a part of the AIM club has been a transformative experience. The projects we work on are innovative and challenging, and I have learned so much.',
+    name: 'Arun Kumare',
+    title: 'President',
   },
   {
     quote:
-      "The community at the AI club is incredibly supportive. I've grown not just as a programmer, but also as a thinker, thanks to their comprehensive approach.",
-    name: 'John Doe',
-    title: 'Data Scientist',
+      "The community at the AIM club is incredibly supportive. I've grown not just as a programmer, but also as a thinker, thanks to their comprehensive approach.",
+    name: 'Sagar',
+    title: 'Vice president',
   },
   {
     quote:
-      "The AI club has given me the confidence to tackle complex problems. I'm endlessly grateful for the opportunities to learn and grow.",
-    name: 'John Doe',
-    title: 'Machine Learning Engineer',
+      "The AIM club has given me the confidence to tackle complex problems. I'm endlessly grateful for the opportunities to learn and grow.",
+    name: 'Deepak',
+    title: 'Secretary',
   },
   {
     quote:
-      'Finding the right mentor can be challenging, but the AI club matched me with a mentor who truly understands my goals and challenges.',
-    name: 'John Doe',
-    title: 'AI Researcher',
+      'Finding the right mentor can be challenging, but the AIM club matched me with a mentor who truly understands my goals and challenges.',
+    name: 'Srujana Gudipadi',
+    title: 'Treasurer',
   },
   {
     quote:
-      'The projects and collaborations here have opened my eyes to the potential of AI. I highly recommend joining the AI club!',
-    name: 'John Doe',
-    title: 'AI Enthusiast',
+      'The projects and collaborations here have opened my eyes to the potential of AIM. I highly recommend joining the AI club!',
+    name: 'Sai Prashanth',
+    title: 'Technical',
   },
 ];
 

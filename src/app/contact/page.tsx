@@ -1,4 +1,6 @@
+
 'use client';
+import Footer from '@/components/Footer';
 import { FormEvent, useState } from 'react';
 import { BackgroundBeams } from "../../components/ui/background-beams";
 import { Meteors } from "../../components/ui/meteors";
@@ -46,6 +48,7 @@ export default function Contact() {
         </form>
         <Meteors number={40} />
       </div>
+      <Footer />
     </div>
   );
 }

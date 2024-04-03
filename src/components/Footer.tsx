@@ -24,15 +24,15 @@ artificial intelligence. We nurture curiosity from the ground up, fostering a vi
             </li>
             <li>
               <a
-                href="/about"
+                href="/events"
                 className="hover:text-white transition-colors duration-300"
               >
-                About
+                Events
               </a>
             </li>
             <li>
               <a
-                href="/courses"
+                href="/blog"
                 className="hover:text-white transition-colors duration-300"
               >
                 Blog
