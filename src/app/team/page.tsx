@@ -19,7 +19,7 @@ export default function CanvasRevealEffectDemo() {
       containerClassName="bg-emerald-900"
     />
   </Card>
-  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkEUZ42JeNLF7TiDC-p6R1Yq41x6QlkxGtJ1GGfWBSKG3Kq6UiDRoWyZcwVeVryP58_L4&usqp=CAU">
+  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc="blob:https://web.whatsapp.com/c5eab3ef-2f00-4c3b-b5fa-08cdee9e1554">
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-black"
