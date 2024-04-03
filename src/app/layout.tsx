@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -22,9 +21,6 @@ export default function RootLayout({
         <Navbar/>
         </div>
         {children}
-        <footer>
-    <Footer/>
-  </footer>
         
         </body>
     </html>

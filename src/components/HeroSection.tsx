@@ -11,7 +11,7 @@ export default function HeroSection() {
       text: "Intellectual",
     },
     {
-      text: "Mindsets",
+      text: "Minds",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];

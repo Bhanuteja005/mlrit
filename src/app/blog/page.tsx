@@ -1,5 +1,6 @@
 'use client'
 
+import Footer from "@/components/Footer";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { FollowerPointerCard } from "@/components/ui/following-pointer";
 import {
@@ -109,7 +110,7 @@ export default function page() {
         />
       ))}
     </BentoGrid>
-
+    <Footer/>
     </div>
   );
 }

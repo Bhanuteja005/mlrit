@@ -1,8 +1,9 @@
+import Footer from "@/components/Footer";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Image from "next/image";
-
 export default function TracingBeamDemo() {
   return (
+    <div>
     <div>
     <TracingBeam className="px-6 mt-32">
       <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Events</h2>
@@ -32,6 +33,8 @@ export default function TracingBeamDemo() {
       </div>
     </TracingBeam>
     </div>
+    <Footer/>
+</div>
   );
 }
 const dummyContent = [
