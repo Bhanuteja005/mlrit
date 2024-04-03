@@ -1,5 +1,5 @@
 'use client'
-import Footer from "@/components/Footer";
+
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { FollowerPointerCard } from "@/components/ui/following-pointer";
 import {
@@ -12,6 +12,7 @@ import {
   IconHospital
 } from "@tabler/icons-react";
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function page() {
   return (
@@ -47,11 +48,11 @@ export default function page() {
               {blogContent.description}
             </h2>
             <div className="flex flex-row justify-between items-center mt-10">
-              <span className="text-sm text-gray-500">{blogContent.date}</span>
-              <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
-                Read More
-              </div>
-            </div>
+  <span className="text-sm text-gray-500">{anotherBlogContent.date}</span>
+  <Link href="https://sudarsanambharath.medium.com/the-technical-anatomy-of-large-action-models-and-understanding-its-impact-on-future-ai-developments-187078518a60" className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+  Read More
+</Link>
+</div>
           </div>
         </div>
         </FollowerPointerCard>
@@ -84,11 +85,11 @@ export default function page() {
             {anotherBlogContent.description}
           </h2>
           <div className="flex flex-row justify-between items-center mt-10">
-            <span className="text-sm text-gray-500">{anotherBlogContent.date}</span>
-            <div className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
-              Read More
-            </div>
-          </div>
+  <span className="text-sm text-gray-500">{anotherBlogContent.date}</span>
+  <Link href="https://sudarsanambharath.medium.com/mongodb-quickstart-from-beginner-to-expert-at-lightning-speed-a0ef12d8f93a" className="relative z-10 px-6 py-2 bg-black text-white font-bold rounded-xl block text-xs">
+  Read More
+</Link>
+</div>
         </div>
       </div>
     </FollowerPointerCard>
@@ -107,7 +108,7 @@ export default function page() {
         />
       ))}
     </BentoGrid>
-    <Footer/>
+
     </div>
   );
 }

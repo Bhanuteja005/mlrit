@@ -1,5 +1,4 @@
 "use client";
-import Footer from "@/components/Footer";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
@@ -54,7 +53,6 @@ export default function CanvasRevealEffectDemo() {
     />
   </Card>
 </div>
-      <Footer/>
     </>
   );
 }
