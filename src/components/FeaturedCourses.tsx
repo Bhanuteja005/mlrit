@@ -15,7 +15,7 @@ function FeaturedCourses() {
 </div>
 </div>
             <div className="mt-20 text-center">
-            <Link href={"/events"}>
+            <Link href={"/team"}>
             <Button
               borderRadius="1.75rem"
               className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"

@@ -10,6 +10,7 @@ export default function CanvasRevealEffectDemo() {
     <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8 mt-32">Our Team</h2>
     <p className="text-center text-white">&quot;Individual commitment to a group effort - that is what makes a team work, a company work, a society work, a civilization work.&quot;<br></br>
 - Vince Lombardi</p>
+<hr style={{ width: '50%', margin: '0 auto' , marginTop:"50px"}} />
     <h6 className="text-xl md:text-3xl lg:text-5xl text-white text-center mb-8 mt-32">Core Team</h6>
 <div className="py-20 grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center bg-white dark:bg-black w-full mx-auto px-8">
 

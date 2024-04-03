@@ -32,14 +32,14 @@ export default function HeroSection() {
         WELCOME TO THE FOREFRONT OF INNOVATION AT MLRIT WITH AIM CLUB!
         </p>
         <div className="p-4">
-          <Link href={"/events"}>
-            <Button
-              borderRadius="1.75rem"
-              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-            >
-              Explore 
-            </Button>
-          </Link>
+          <Link href="/events">
+  <Button
+    borderRadius="1.75rem"
+    className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+  >
+    Explore 
+  </Button>
+</Link>
         </div>
       </div>
     </div>
