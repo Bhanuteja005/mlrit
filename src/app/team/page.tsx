@@ -1,5 +1,6 @@
 "use client";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import pic from "@/pics/sagar.jpeg";
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
 
@@ -19,7 +20,7 @@ export default function CanvasRevealEffectDemo() {
       containerClassName="bg-emerald-900"
     />
   </Card>
-  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc="blob:https://web.whatsapp.com/c5eab3ef-2f00-4c3b-b5fa-08cdee9e1554">
+  <Card title="Sagar Sirikonda" hoverText="Vice President"  imageSrc={pic.src}>
     <CanvasRevealEffect
       animationSpeed={3}
       containerClassName="bg-black"

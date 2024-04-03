@@ -4,7 +4,7 @@ const aiClubTestimonials = [
   {
     quote:
       'Being a part of the AIM club has been a transformative experience. The projects we work on are innovative and challenging, and I have learned so much.',
-    name: 'Arun Kumare',
+    name: 'Arun Kumar',
     title: 'President',
   },
   {
