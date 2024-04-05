@@ -1,4 +1,4 @@
-
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-400 py-12">
@@ -52,22 +52,23 @@ artificial intelligence. We nurture curiosity from the ground up, fostering a vi
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a
+
               href="https://www.facebook.com/people/Aim-club/100083085411093/?mibextid=ZbWKwL"
-              className="hover:text-white transition-colors duration-300"
+              className="hover:text-white transition-colors duration-300 "
             >
-              Facebook
+              <FaFacebook  size={30}/>
             </a>
             <a
-              href="https://twitter.com/i/flow/login?redirect_after_login=%2FAimclub_mlrit"
+              href="https://www.linkedin.com/company/aim-club/about/"
               className="hover:text-white transition-colors duration-300"
             >
-              Twitter
+              <FaLinkedin  size={30}/>
             </a>
             <a
               href="https://www.instagram.com/aim_mlrit/?igsh=azJ4cWxwNGg4NnZy"
               className="hover:text-white transition-colors duration-300"
             >
-              Instagram
+              <FaInstagram  size={30}/>
             </a>
           </div>
         </div>
