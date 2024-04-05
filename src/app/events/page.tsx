@@ -6,7 +6,7 @@ export default function TracingBeamDemo() {
     <div>
     <div>
     <TracingBeam className="px-6 mt-32">
-      <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Events</h2>
+      <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">Our Events</h2>
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">

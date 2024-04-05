@@ -8,7 +8,7 @@ export default function LayoutGridDemo() {
   return (
     <header>
     <div className="h-screen py-20 w-full">
-      <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8 mt-32">Gallery</h2>
+      <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8 mt-32">Our Gallery</h2>
       <hr style={{ width: '50%', margin: '0 auto' }} />
       <LayoutGrid cards={cards} />
       <ParallaxScroll images={images} />
