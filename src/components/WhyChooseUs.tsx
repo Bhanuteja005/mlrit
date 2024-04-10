@@ -8,9 +8,9 @@ const aiClubContent = [
       'Join us in pioneering cutting-edge projects in the field of artificial intelligence. Our club fosters a community of forward-thinkers who are pushing the boundaries of what\'s possible with AI.',
   },
   {
-    title: 'Collaboration with Inlustroo Company',
+    title: 'Collaboration with Inlustro Company',
     description:
-      'We collaborate with Inlustroo Company to bring the latest AI technologies and insights to our club members. This partnership provides unique opportunities for learning and growth.',
+      'We collaborate with Inlustro Company to bring the latest AI technologies and insights to our club members. This partnership provides unique opportunities for learning and growth.',
   },
   {
     title: 'Real-World AI Applications',
