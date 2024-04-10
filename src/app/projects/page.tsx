@@ -1,10 +1,12 @@
 'use client'
+import Footer from "@/components/Footer";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { PinContainer } from "@/components/ui/3d-pin";
 import projectData from "@/data/aim_project.json";
 import Image from 'next/image';
 function page() {
     return (
+        <div>
       <div className="min-h-screen bg-black py-12 pt-36">
           <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All Projects ({projectData.projects.length})</h1>  
           <div className="flex flex-wrap justify-center">
@@ -82,6 +84,8 @@ function page() {
                 </CardContainer>
               ))}
           </div>  
+      </div>
+      <Footer />
       </div>
     )
   }
