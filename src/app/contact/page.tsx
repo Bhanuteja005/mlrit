@@ -1,6 +1,7 @@
 
 'use client';
 import Footer from "@/components/Footer";
+import { Meteors } from "@/components/ui/meteors";
 import { FormEvent, useState } from 'react';
 import { BackgroundBeams } from "../../components/ui/background-beams";
 
@@ -46,6 +47,9 @@ export default function Contact() {
             Send Message
           </button>
         </form>
+        <div className="md:block hidden">
+  <Meteors number={20}/>
+</div>
         
       </div>
     </div>

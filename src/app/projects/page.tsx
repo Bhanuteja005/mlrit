@@ -8,7 +8,7 @@ function page() {
     return (
         <div>
       <div className="min-h-screen bg-black py-12 pt-36">
-          <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All Projects ({projectData.projects.length})</h1>  
+          <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All Projects </h1>  
           <div className="flex flex-wrap justify-center">
           <div className="h-[40rem] w-full flex items-center justify-center ">
       <PinContainer

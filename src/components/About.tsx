@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/moving-border";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
-function FeaturedCourses() {
+function About() {
     const words = `Welcome to Aim Club at MLRIT College, where the future meets innovation! Aim, short for Aspiring Intellectual Minds, is the dynamic AIML department club that explores the realms of artificial intelligence. In collaboration with Inlustro Company, Aim Club pioneers cutting-edge projects and fosters a community of forward-thinkers. Our members have harnessed their skills to develop a remarkable robot, showcasing the potential of AI in the real world. Join us on this journey of discovery and advancement, where passion meets technology. Be part of Aim Club and embrace the limitless possibilities of AI. Together, we shape the future!`;
   
     return (
@@ -28,4 +28,4 @@ function FeaturedCourses() {
   )
 }
 
-export default FeaturedCourses
+export default About
