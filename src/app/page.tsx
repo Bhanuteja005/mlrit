@@ -7,8 +7,7 @@ import ImageSlider from "@/components/ImageSLider";
 import Instructors from "@/components/Instructors";
 import MultiStepLoaderDemo from "@/components/Preloader";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import MusicSchoolTestimonials from "@/components/ui/TestimonialCards";
-import UpcomingWebinars from "@/components/ui/UpcomingWebinars";
+import AimTestimonials from "@/components/ui/TestimonialCards";
 import { useEffect, useState } from 'react';
 
 export default function Home() {
@@ -32,8 +31,7 @@ export default function Home() {
           <About/>
           <WhyChooseUs/>
           <GlobePage/>
-          <MusicSchoolTestimonials/>
-          <UpcomingWebinars/>
+          <AimTestimonials/>
           <Instructors/>
           <ImageSlider/>
           <Footer/>

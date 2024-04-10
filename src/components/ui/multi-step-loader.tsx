@@ -61,25 +61,25 @@ const LoaderCore = ({
             transition={{ duration: 0.5 }}
           >
             <div>
-              {index > value && (
-                <CheckIcon className="text-black dark:text-white" />
-              )}
-              {index <= value && (
-                <CheckFilled
-                  className={cn(
-                    "text-black dark:text-white",
-                    value === index &&
-                      "text-black dark:text-lime-500 opacity-100"
-                  )}
-                />
-              )}
-            </div>
-            <span
-              className={cn(
-                "text-black dark:text-white",
-                value === index && "text-black dark:text-lime-500 opacity-100"
-              )}
-            >
+  {index > value && (
+    <CheckIcon className="text-black dark:text-white" />
+  )}
+  {index <= value && (
+    <CheckFilled
+      className={cn(
+        "text-black dark:text-white",
+        value === index &&
+          "text-black dark:text-blue-500 opacity-100"
+      )}
+    />
+  )}
+</div>
+<span
+  className={cn(
+    "text-black dark:text-white",
+    value === index && "text-black dark:text-blue-500 opacity-100"
+  )}
+>
               {loadingState.text}
             </span>
           </motion.div>

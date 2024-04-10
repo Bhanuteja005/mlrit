@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { ImagesSlider } from "./ui/images-slider";
-
 export default function ImagesSliderDemo() {
   const images = [
     "https://images.unsplash.com/photo-1488554378835-f7acf46e6c98?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -27,10 +27,12 @@ export default function ImagesSliderDemo() {
         <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
         Join the Aim, and dive into  <br />the future of AI collaboration.
         </motion.p>
-        <button className="px-4 py-2 hover:bg-black backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-          <span>Join the Innovation →</span>
-          <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-        </button>
+        <Link href={"/contact"}>
+  <button className="px-4 py-2 hover:bg-black backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+    <span>Join the Innovation →</span>
+    <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
+  </button>
+</Link>
       </motion.div>
     </ImagesSlider>
   );

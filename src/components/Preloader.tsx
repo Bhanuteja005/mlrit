@@ -1,30 +1,29 @@
 "use client";
-import { IconSquareRoundedX } from "@tabler/icons-react";
 import { useEffect, useState } from 'react';
 import { MultiStepLoader as Loader } from "./ui/multi-step-loader";
 
 const loadingStates = [
-    {
-      text: "Initializing AI systems",
-    },
-    {
-      text: "Loading ML models",
-    },
-    {
-      text: "Optimizing performance",
-    },
-    {
-      text: "Setting up user interface",
-    },
-    {
-      text: "Preparing your personalized AI experience",
-    },
-    {
-      text: "Almost there",
-    },
-    {
-      text: "Welcome to AI Home",
-    },
+  {
+    text: "Entering the world of AI",
+  },
+  {
+    text: "Connecting to the AI network",
+  },
+  {
+    text: "Loading AI knowledge base",
+  },
+  {
+    text: "Setting up AI club interface",
+  },
+  {
+    text: "Preparing your personalized AI journey",
+  },
+  {
+    text: "Almost in the AI realm",
+  },
+  {
+    text: "Welcome to the AI Club",
+  },
   ];
 
   export default function MultiStepLoaderDemo() {
@@ -52,7 +51,7 @@ const loadingStates = [
             className="fixed top-4 right-4 text-black dark:text-white z-[120]"
             onClick={() => setLoading(false)}
           >
-            <IconSquareRoundedX className="h-10 w-10" />
+            
           </button>
         )}
       </div>
