@@ -30,6 +30,7 @@ export default function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/events">Events</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/gallery">Gallery</HoveredLink>
+            <HoveredLink href="/projects">Projects</HoveredLink>
           </div>
         </MenuItem>
         <Link href={"/contact"}>

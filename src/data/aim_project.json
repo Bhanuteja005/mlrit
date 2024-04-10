@@ -1,0 +1,51 @@
+{
+    "projects": [
+        {
+          "title": "Fastcart",
+          "image": "https://www.bhanuteja.wiki/assets/5780082-CG_dDYv_.jpg",
+          "linkGithub": "https://app.flutterflow.io/project/fastcart-rga41n?tab=pageSelector&page=home",
+          "linkOnline": "https://app.flutterflow.io/project/fastcart-rga41n?tab=uiBuilder&page=page2",
+          "description": "Fastcart is a android app that provides Smart Billing Interface to enhance your shopping experience for selected products.",
+          "techStack": ["Flutterflow", "Barcode Integration", "Firebase"]
+        },
+        {
+            "title": "SLIMQ",
+            "image": "https://www.bhanuteja.wiki/assets/2687677-ff9zZVwd.jpg",
+            "linkGithub": "https://github.com/Bhanuteja005/chatbot-bha",
+            "description": "Engineered a chatbot using LSTM-based neural network for intent classification and randomized response generation from a curated dataset.",
+            "techStack": ["JavaScript", "AI", "Python"]
+        },
+        {
+            "title": "MazeGenius",
+            "image": "https://www.bhanuteja.wiki/assets/368960-PB8Z2Y-988-CA5yx4-X.jpg",
+            "linkGithub": "https://github.com/Bhanuteja005/maze-play",
+            "linkOnline": "https://bhanuteja005.github.io/maze-play/",
+            "description": "Crafted an isometric maze game in JavaScript using Prims algorithm for generation, featuring wall display, character movement, and Python script for maze generation.",
+            "techStack": ["React", "Tailwind CSS", "Firebase", "Replicate", "Llama2"]
+        },
+        {
+            "title": "Placement-Portal",
+            "image": "https://www.bhanuteja.wiki/assets/9707240_4218748-D_Uew6RT.jpg",
+            "linkGithub": "https://github.com/Bhanuteja005/Placement",
+            "linkOnline": null,
+            "description": "Created a dynamic placement portal for streamlined recruitment processes, offering a user-friendly interface, resume uploads, and automated job matching.",
+            "techStack": ["Bootstrap", "Javascript"]
+        },
+        {
+            "title": "Ehub",
+            "image": "https://www.bhanuteja.wiki/assets/techn-BK35R1F7.jpg",
+            "linkGithub": "https://github.com/Bhanuteja005/E-HUB",
+            "linkOnline": null,
+            "description": "Developed Student Events Hub, a user-friendly web platform centralizing college events information for students, fostering easy access and engagement without technical complexity.",
+            "techStack": ["Html", "Django", "Javascript","CSS"]
+        },
+        {
+            "title": "Zomato-Clone",
+            "image": "https://www.bhanuteja.wiki/assets/16688235_5776825-3F8eG9Qn.jpg",
+            "linkGithub": "https://github.com/Bhanuteja005/zomproject",
+            "description": "Debuted with my inaugural project: a sample Zomato-inspired web page, showcasing an early exploration into web development.",
+            "techStack": ["MERN Stack", "Tailwind CSS"]
+        }
+        
+      ]
+}
