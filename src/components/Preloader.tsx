@@ -4,25 +4,25 @@ import { MultiStepLoader as Loader } from "./ui/multi-step-loader";
 
 const loadingStates = [
   {
-    text: "Entering the world of AI",
+    text: "Entering the world of AIM",
   },
   {
-    text: "Connecting to the AI network",
+    text: "Connecting to the AIM network",
   },
   {
-    text: "Loading AI knowledge base",
+    text: "Loading AIM knowledge base",
   },
   {
-    text: "Setting up AI club interface",
+    text: "Setting up AIM club interface",
   },
   {
-    text: "Preparing your personalized AI journey",
+    text: "Preparing your personalized AIM journey",
   },
   {
-    text: "Almost in the AI realm",
+    text: "Almost in the AIM realm",
   },
   {
-    text: "Welcome to the AI Club",
+    text: "Welcome to the AIM Club",
   },
   ];
 
