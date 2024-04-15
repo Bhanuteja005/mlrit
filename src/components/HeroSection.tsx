@@ -26,7 +26,7 @@ export default function HeroSection() {
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
        AIM 
         </h1>
-        <TypewriterEffectSmooth words={words} className="place-content-center"/>
+        <TypewriterEffectSmooth words={words} className="place-content-center calsans-font"/>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
 
         WELCOME TO THE FOREFRONT OF INNOVATION AT MLRIT WITH AIM CLUB!

@@ -21,6 +21,9 @@
   font-weight: 600;
   font-style: normal;
 }
+.calsans-font {
+  font-family: 'Calsans', sans-serif;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
