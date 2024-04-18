@@ -14,20 +14,23 @@ export default function RootLayout({
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Set loading to false once all assets for the page have loaded
-    window.onload = () => {
-      setLoading(false);
-    };
+    // Set loading to false once all components have mounted
+    setTimeout(() => setLoading(false), 7000); // Adjust delay as needed
   }, []);
 
   return (
     <html lang="en" className="dark" style={{ margin: 0, padding: 0 }}>
       <body className={`${inter.className} m-0 p-0`}>
-        {loading && <div className="absolute top-0 left-0 w-full h-full"><Preloader/></div>}
-        <div className="relative w-full flex items-center justify-center m-0 p-0">
-          <Navbar/>
-        </div>
-        {children}
+        {loading ? (
+          <div className="absolute top-0 left-0 w-full h-full"><Preloader/></div>
+        ) : (
+          <>
+            <div className="relative w-full flex items-center justify-center m-0 p-0">
+              <Navbar/>
+            </div>
+            {children}
+          </>
+        )}
       </body>
     </html>
   );
