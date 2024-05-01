@@ -17,7 +17,7 @@ import Link from 'next/link';
 
 export default function page() {
   return (
-<div>
+<div className="px-4 sm:px-0">
   <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8 mt-32">Blog</h2>
   <hr style={{ width: '50%', margin: '0 auto' }} />
   <h6 className=" md:text-4xl  text-white  text-center mb-8 mt-20">Recent Posts</h6>

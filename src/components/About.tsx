@@ -10,9 +10,9 @@ function About() {
       <div className="py-12 bg-gray-900">
         <div>
         <div className="text-center">
-        <h1 className="text-5xl sm:text-1xl md:text-6xl text-teal-600 mt-20 md:mt-0 font-bold bg-clip-text calsans-font">About Us</h1>
-  <TextGenerateEffect words={words} className="mt-4 font-normal text-base md:text-lg sm:text-sm text-neutral-300 max-w-full mx-auto text-left pl-5 pr-5 calsans-font"/>
-</div>
+        <h6 className="text-sm sm:text-5xl md:text-6xl text-teal-600 mt-20 md:mt-0 font-bold bg-clip-text calsans-font">ABOUT US</h6>
+        <TextGenerateEffect words={words} className="mt-4 font-normal text-base md:text-lg xs:text-sm text-neutral-300 max-w-full mx-auto text-left pl-5 pr-5 calsans-font"/>
+        </div>
 </div>
             <div className="mt-20 text-center">
             <Link href={"/team"}>

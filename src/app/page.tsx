@@ -17,8 +17,9 @@ export default function Home() {
           <About/>
           <WhyChooseUs/>
           <GlobePage/>
-          <AimTestimonials/>
           <Instructors/>
+          <AimTestimonials/>
+          
           <ImageSlider/>
           <Footer/>
         </>
