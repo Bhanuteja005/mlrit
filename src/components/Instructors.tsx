@@ -5,7 +5,7 @@ import { WavyBackground } from "./ui/wavy-background";
 const instructors = [
     {
       id: 1,
-      name: 'Sai Prasad k',
+      name: 'Dr.Sai Prasad kashi',
       designation: 'HOD & Associate Professor',
       image:
         'https://mlrit.ac.in/wp-content/uploads/2022/03/Sai-Prasad-e1688727445691.jpeg',
@@ -13,7 +13,7 @@ const instructors = [
 
     {
       id: 3,
-      name: 'Vijay G',
+      name: 'Vijay Gopal J',
       designation: 'Associate Professor',
       image:
         'https://mlrit.ac.in/wp-content/uploads/2023/07/1688724924587-2-scaled-e1688725244546.jpg',
